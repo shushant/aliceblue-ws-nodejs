@@ -1,0 +1,29 @@
+{
+  "name": "abconnect",
+  "version": "1.0.0",
+  "description":"",
+  "main": "./lib/",
+  "scripts": {
+    "generate-docs": "node_modules/.bin/jsdoc --configure .jsdoc.json --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shushant/aliceblueconnectjs.git"
+  },
+  "keywords": [
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shushant/aliceblueconnectjs"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "crypto-js": "^3.1.9-1",
+    "papaparse": "^4.3.6",
+    "ws": "^1.1.1"
+  },
+  "devDependencies": {
+    "jsdoc": "^3.4.0",
+    "minami": "^1.1.1"
+  }
+}

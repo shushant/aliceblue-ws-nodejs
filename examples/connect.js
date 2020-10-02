@@ -1,0 +1,1 @@
+var KiteConnect = require("kiteconnect").KiteConnect;
